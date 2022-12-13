@@ -9,7 +9,7 @@
 <p align="justify">Pendaki App is a mobile-based application that is used to make it easier for mountain climbers to obtain information about mountains in Indonesia. The available information includes details on the origin of the mountain, available hiking trails, equipment and tips on mountain climbing and so on.</p>
 
 ## 📓 Testing Documentation
-[Test Case API](https://docs.google.com/spreadsheets/d/1ppP_ZsrwpjdTcSQ9Xh6qMabsgxsvdwNe/edit?usp=sharing&ouid=106261304285108213478&rtpof=true&sd=true)
+[Test Case Documentation](https://docs.google.com/spreadsheets/d/1ppP_ZsrwpjdTcSQ9Xh6qMabsgxsvdwNe/edit?usp=sharing&ouid=106261304285108213478&rtpof=true&sd=true)
 
 ## 📝 Reports
 
