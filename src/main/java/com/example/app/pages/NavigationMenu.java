@@ -29,7 +29,7 @@ public class NavigationMenu extends BasePageObject {
     click(MobileBy.xpath("//android.widget.CheckedTextView[@text=\"Lokasi Toko Outdoor\"]"));
   }
   public void clickSettingsMenu(){
-    click(MobileBy.xpath("//android.widget.CheckedTextView[@text=\"Lokasi Toko Outdoor\"]"));
+    click(MobileBy.xpath("//android.widget.CheckedTextView[@text=\"Settings\"]"));
   }
 
 

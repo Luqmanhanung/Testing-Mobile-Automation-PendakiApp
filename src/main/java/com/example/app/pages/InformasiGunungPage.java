@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static com.example.app.drivers.AndroidDriverInit.driver;
 
-public class PendakianPage extends BasePageObject {
+public class InformasiGunungPage extends BasePageObject {
     public void clickMenuProvince(String province){
         if (province=="JAWA TENGAH"){
             click(MobileBy.xpath("//android.widget.TextView[@text=\"JAWA TENGAH\"]"));

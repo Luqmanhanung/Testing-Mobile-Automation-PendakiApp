@@ -2,6 +2,7 @@ package com.example.steps;
 
 import com.example.BaseTest;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
 public class NavigationMenuSteps extends BaseTest {
@@ -9,5 +10,13 @@ public class NavigationMenuSteps extends BaseTest {
   public void userGoToListMenu() {
     navigationMenu.clickHamburgerBtn();
   }
+
+  @Given("user already on Informasi Pendakian Menu")
+  public void userAlreadyOnInformasiPendakianMenu() {
+    navigationMenu.clickHamburgerBtn();
+    navigationMenu.clickInformasiPendakianMenu();
+
+  }
+
 
 }

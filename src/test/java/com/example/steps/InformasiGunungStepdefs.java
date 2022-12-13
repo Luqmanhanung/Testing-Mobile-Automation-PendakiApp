@@ -5,11 +5,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.Assertions;
 
 import static org.junit.Assert.assertEquals;
 
-public class PendakianStepdefs extends BaseTest {
+public class InformasiGunungStepdefs extends BaseTest {
     @Given("user already on Pendaki page")
     public void userAlreadyOnPendakiPage() {
         //kosong
@@ -27,52 +26,54 @@ public class PendakianStepdefs extends BaseTest {
 
     @Then("user direct to {string}")
     public void userDirectTo(String mountainArticle) {
-        pendakianPage.checkTitleArticle();
-        assertEquals(mountainArticle, pendakianPage.getArticleTitle());
+        infomasiGunungPage.checkTitleArticle();
+        assertEquals(mountainArticle, infomasiGunungPage.getArticleTitle());
     }
 
     @Then("user direct to article of mountain")
     public void userDirectToArticle() {
-        pendakianPage.checkTitleArticle();
+        infomasiGunungPage.checkTitleArticle();
     }
 
     @When("user tap on province Jawa Barat")
     public void userTapOnProvince() {
-        pendakianPage.clickprovinceJawaBarat();
+        infomasiGunungPage.clickprovinceJawaBarat();
     }
 
     @And("user tap on mountain Gunung Ciremai")
     public void userTapOnMountain() {
-        pendakianPage.clickMountainGunungCiremai();
+        infomasiGunungPage.clickMountainGunungCiremai();
     }
 
     @When("user tap on province Jawa Timur")
     public void userTapOnProvinceJawaTimur() {
-        pendakianPage.clickprovinceJawaTimur();
+        infomasiGunungPage.clickprovinceJawaTimur();
     }
 
     @And("user tap on mountain Gunung Arjuno")
     public void userTapOnMountainGunungArjuno() {
-        pendakianPage.clickMountainGunungArjuno();
+        infomasiGunungPage.clickMountainGunungArjuno();
     }
 
     @When("user tap on province Jawa Tengah")
     public void userTapOnProvinceJawaTengah() {
-        pendakianPage.clickprovinceJawaTengah();
+        infomasiGunungPage.clickprovinceJawaTengah();
     }
 
     @And("user tap on mountain Gunung Lawu")
     public void userTapOnMountainGunungLawu() {
-        pendakianPage.clickMountainGunungLawu();
+        infomasiGunungPage.clickMountainGunungLawu();
     }
 
     @When("user tap on province Luar Jawa")
     public void userTapOnProvinceLuarJawa() {
-        pendakianPage.clickprovinceLuarJawa();
+        infomasiGunungPage.clickprovinceLuarJawa();
     }
 
     @And("user tap on mountain Gunung Jaya Wijaya")
     public void userTapOnMountainGunungJayaWijaya() {
-        pendakianPage.clickMountainGunungJayaWijaya();
+        infomasiGunungPage.clickMountainGunungJayaWijaya();
     }
+
+
 }
