@@ -35,11 +35,15 @@
 
 ## 🏎️ How to Run all Test Scenarios
 
-1. Clone the repository
+1. Turn on Android Emulator on Android Studio
+
+2. Turn on Appium server on Appium desktop
+
+3. Clone the repository
 ```bash
   $ git clone https://github.com/Luqmanhanung/Testing-Mobile-Automation-PendakiApp.git
 ```
-2. Open  this Project Repository on Intellij IDE and Run one of test case 
+4. Open  this Project Repository on Intellij IDE and Run one of test case 
 
 
 ## 📱 Project By
