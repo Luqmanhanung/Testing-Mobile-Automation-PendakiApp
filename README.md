@@ -33,7 +33,7 @@
 ![Serenity](https://img.shields.io/badge/-serenity-16a67a?style=for-the-badge&logo=serenity&logoColor=black)
 ![Cucumber](https://img.shields.io/badge/-cucumber-4bc47b?style=for-the-badge&logo=cucumber&logoColor=black)
 
-## 🏎️ How to Run all Test Scenarios
+## 🏎️ How to Run The Test Scenarios
 
 1. Turn on Android Emulator on Android Studio
 
