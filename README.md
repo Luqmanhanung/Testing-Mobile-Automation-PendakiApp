@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/Luqmanhanung/Testing-Mobile-Sampleapk.git">
+  <a href="https://github.com/Luqmanhanung/Testing-Mobile-Automation-PendakiApp.git">
     <img src="https://github.com/Luqmanhanung/Testing-Mobile-Automation-PendakiApp/blob/master/img/qpendakiappicon.png" width="400" height="144">
   </a>
 </div>
